@@ -1,3 +1,36 @@
 body {
     padding-top: 5rem;
 }
+
+form {
+    max-width: 36rem;
+}
+
+form,
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    gap: 1rem;
+}
+
+form .submit {
+    min-width: 6rem;
+    width: fit-content;
+    height: 2rem;
+}
+
+ul .flashes,
+ul > * {
+    list-style: none;
+}
+
+.flashes > .success {
+    border: 1px solid #28a745;
+    border-radius: 8px;
+    background-color: #28a74510;
+    width: fit-content;
+    padding: 1rem 3rem;
+}
